@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Dead";
+    src: url("../fonts/Caveat-Medium.ttf");
+    font-style: normal;
+    font-weight: normals;
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url(../fonts/Oswald-Light.ttf);
+    font-style: normal;
+    font-weight: normals;
+}

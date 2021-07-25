@@ -1,0 +1,384 @@
+body {
+    margin: 0 auto;
+    background: url(../img/wall.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-attachment: fixed;
+    max-width: 610px;
+}
+
+.index {
+    max-width: 1300px;
+}
+
+
+
+
+
+
+/* Карточки персонажей */
+
+
+/* Вся карточка */
+.card {
+    width: 550px;
+    min-width: 200px;
+    margin: 40px auto 30px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgb(221, 23, 23);
+    border-radius: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Имя */
+.title {
+    font-size: 40px;
+    text-align: center;
+    margin-top: -5px;
+    color: red;
+    font-family: "Dead";
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px #ff0000, 0 0 13px #ff0202, 0 0 14px #ff0000, 0 0 20px #ff2020, 0 0 30px #ff0000;
+}
+
+/* Навыки и контакты */
+.subtitle {
+    font-size: 26px;
+    color: rgb(132, 3, 3);
+    font-family: "Dead";
+    text-align: left;
+}
+
+/* Основной текст */
+.text {
+    font-size: 20px;
+    font-family: "Medium";
+    word-spacing: 1.2;
+}
+
+/* Список навыков */
+.list {
+    padding-left: 0;
+    list-style-position: inside;
+    font-size: 19px;
+    font-family: "Medium";
+    text-align: left;
+}
+
+/* Контакты */
+.contact {
+    line-height: 0.7;
+    font-family: "Medium";
+    font-size: 19px;
+    text-align: left;
+}
+
+/* Общее в фото профиля */
+.photo {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+/* Фото профиля Жека */
+.card1__photo {
+    width: 320px;
+    height: 200px;
+}
+
+/* Фото профиля Саня */
+.card2__photo {
+    width: 250px;
+    height: 200px;
+}
+
+/* Жека - пальцы */
+.card1__micro-gif {
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+}
+
+/* Общее в гиф в тексте */
+.gif-txt {
+    width: 550px;
+    display: block;
+}
+
+/* Саня один глаз поток */
+.card2__gif-txt1 {
+    height: 250px;
+}
+
+/* Жека Канеки поднимает голову */
+.card1__gif-txt1 {
+    height: 350px;
+}
+
+/* Саня Акаши кольцо из глаз */
+.card2__gif-txt2 {
+    height: 300px;
+}
+
+
+/* Подпись к картинке */
+.card2__text_under-txt {
+    font-size: 16px;
+    color: gray;
+    font-weight: lighter;
+}
+
+/* Жека меняется цвет волос */
+.card1__gif-txt2 {
+    height: 300px;
+}
+
+/* Саня картинка Emperor eye */
+.card2__gif-txt3 {
+    width: 550px;
+}
+
+/* Жека ногти блок */
+.card1__block2 {
+    display: flex;
+}
+
+/* Жека ногти картинка */
+
+.card1__block2 img {
+    max-width: 275px;
+}
+
+/* ссылки в контактах */
+.contact a {
+    color: inherit;
+    text-decoration: none;
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+
+
+.index div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+/* Главная страница */
+
+div.index>card {
+    display: flex;
+    margin: 0 0 0 0;
+    margin: 90px auto 30px auto;
+
+}
+
+
+.index-photo {
+    width: 250px;
+    height: 250px;
+}
+
+.index-card {
+    width: 350px;
+}
+
+.index-card__title a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.index-card__title a:hover {
+    text-decoration : none ;
+}
+
+.text a.index-card__link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.text a.index-card__link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* Меню */
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a.parent {
+    margin: 0 0px 0 0;
+}
+
+.menu li {
+    list-style: none;
+    position: relative;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list>li {
+    margin: 0 0px 0 0;
+}
+
+.menu__link {
+    color: white;
+}
+
+.sub-menu__list {
+    min-width: 240px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    padding: 10px 0 0 0;
+}
+
+.sub-menu__list>li {
+    background-color: rgb(193, 88, 88);
+}
+
+.sub-menu__link {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 5px 10px;
+    margin: auto 0;
+    color: #fff;
+}
+body.mouse .menu>.menu__list{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.sub-sub-menu__list {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding: 0 0 0 5px;
+    min-width: 200px;
+    display: none;
+}
+
+.sub-sub-menu__list>li {
+    background-color: #000;
+}
+
+.sub-sub-menu__link {
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.arrow {
+    display: none;
+    position: absolute;
+    right: 160px;
+    top: 18px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    margin: auto 0;
+}
+
+.arrow.active {
+    transform: rotate(-180deg);
+}
+
+.sub-menu__arrow.arrow {
+    right: 10px;
+    border-left: 10px solid rgb(255, 255, 255);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: none;
+}
+body.mouse .menu__list>li:hover .sub-menu__list {
+    display: block;
+}
+
+body.mouse .sub-menu__list>li:hover .sub-sub-menu__list {
+    display: block;
+}
+
+body.touch .arrow {
+    display: block;
+}
+
+body.mouse .sub-menu__list>li:hover .sub-sub-menu__list {
+    display: block;
+}
+
+body.touch .sub-menu__list.open {
+    display: block;
+}
+
+body.touch .sub-sub-menu__list.open {
+    display: block;
+}
+
+@media (max-width:767px){
+	.wrapper{
+		padding: 15px;
+	}
+	.menu__list {
+		display: block;
+        padding: 0 0 0 0px;
+	}
+	.menu__list>li{
+		margin: 0px 0px 10px 0px;
+        text-align: center;
+	}
+	.sub-menu__list{
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+	.sub-sub-menu__list{
+		padding: 5px 5px;
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+	.sub-menu__arrow.arrow {
+		right: 10px;
+		top: 15px;
+		border-bottom: none;
+		border-left: 10px solid transparent;
+		border-top: 10px solid rgb(255, 255, 255);
+		border-right: 10px solid transparent;
+	}
+}
+
+.menu__list {
+    font-family: "Medium";
+    letter-spacing: 1.2px;
+}
+
+body.mouse .menu__list {
+    font-size: 20px;
+}
+
+body.touch .sub-menu__list {
+    font-size: 20px;
+}
+
+
